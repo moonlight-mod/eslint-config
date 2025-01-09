@@ -65,7 +65,10 @@ export default [
       "@typescript-eslint/no-require-imports": "off",
 
       // https://canary.discord.com/channels/1154257010532032512/1154275441788583996/1181760413231230976
-      "no-unused-labels": "off"
+      "no-unused-labels": "off",
+
+      // Patcher has support for \i
+      "no-useless-escape": ["error", { extra: "i" }]
     }
   }
 ];
