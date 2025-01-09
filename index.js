@@ -68,7 +68,7 @@ export default [
       "no-unused-labels": "off",
 
       // Patcher has support for \i
-      "no-useless-escape": ["error", { extra: "i" }]
+      "no-useless-escape": "off"
     }
   }
 ];
